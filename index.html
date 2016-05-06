@@ -185,8 +185,8 @@
       <hr>
       <div class="row p-y-2 text-muted">
         <div class="col-md-6 col-xl-5">
-          <p><strong>About Treehouse</strong></p>
-          <p>Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
+          <p><strong>About Full Stack Conf</strong></p>
+          <p>Full Stack Conf brings affordable technology education to people everywhere to help them achieve their dreams and change the world.</p>
         </div>
         <div class="col-md-6 col-xl-5 col-xl-offset-2">
           <p><strong>Stay up-to-date on Full Stack Conf</strong></p>
@@ -229,7 +229,7 @@
           </ul>
         </div>
         <div class="col-md-5 text-md-right">
-          <small>&copy; 2016 Full Stack Conf &amp; Treehouse</small>
+          <small>&copy; 2016 Full Stack Conf @Vancouver</small>
         </div>
       </div>
       <!-- footer -->
@@ -239,20 +239,77 @@
           FORM MODAL
          ====================== -->
     <div id="register" class="modal fade">
-      <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header bg-info">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
             <h4 class="modal-title">Register for Full Stack Conf</h4>
           </div>
           <div class="modal-body">
-            <p>Form goes here</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <!-- =================
+                 Registeration Form
+                 =================-->
+                 <!-- Alert -->
+                 <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <strong>Hurry!</strong> Early bird registration end in 286 days.
+                </div><!-- Alert -->
+
+                 <h5 class="m-b-2">Basic Info</h5>
+                 <form>
+                   <fieldset class="form-group">
+                     <label for="name">Name:</label>
+                     <input type="text" class="form-control" id="name">
+                   </fieldset>
+                   <fieldset class="form-group">
+                     <label for="mail">Email:</label>
+                     <input type="email" class="form-control" id="mail">
+                   </fieldset>
+
+                   <fieldset class="form-group">
+                     <label for="role">Job Role:</label>
+                     <select class="c-select form-control" id="role" name="user_role">
+                       <option value="full stack js developer">Full Stack JavaScript Developer</option>
+                       <option value="front end developer">Front End Developer</option>
+                       <option value="back end developer">Back End Developer</option>
+                       <option value="designer">Designer</option>
+                       <option value="student">Student</option>
+                     </select>
+                   </fieldset>
+
+                   <hr class="m-y-2">
+                   <h5 class="m-b-2">Which Topics Interest You Most?</h5>
+                   <div class="form-group c-inputs-stacked">
+                     <label class="c-input c-checkbox">
+                      <input type="checkbox">
+                      <span class="c-indicator"></span>
+                      JavaScript Frameworks
+                    </label>
+                    <label class="c-input c-checkbox">
+                     <input type="checkbox">
+                     <span class="c-indicator"></span>
+                     Node.js
+                   </label>
+                   <label class="c-input c-checkbox">
+                    <input type="checkbox">
+                    <span class="c-indicator"></span>
+                    Build Tools
+                  </label>
+                  <label class="c-input c-checkbox">
+                   <input type="checkbox">
+                   <span class="c-indicator"></span>
+                   ES2015
+                 </label>
+                   </div>
+
+                 </form>
+             <!-- =================
+                  Registeration Form
+                  =================-->
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
